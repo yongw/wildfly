@@ -10,6 +10,8 @@ ENV LC_ALL zh_CN.UTF-8
 ENV LPM_CONF_DIR /etc/lpm/conf
 ENV LPM_UPLOAD_FILE_PATH /data/lpm/upload-file
 
+ADD standalone.xml /opt/jboss/wildfly/standalone/configuration/
+
 USER jboss
 VOLUME ["/etc/lpm/conf", "/data/lpm/upload-file"]
 EXPOSE 9990
