@@ -405,13 +405,4 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
-
-    <deployments>
-        <deployment name="lpm-webui-1.0-SNAPSHOT.war" runtime-name="lpm-webui-1.0-SNAPSHOT.war">
-            <content sha1="c65cd5f3d1377d6a03f6f8cceb8b687b162a9efe"/>
-        </deployment>
-        <deployment name="lpm-webapis-1.0-SNAPSHOT.war" runtime-name="lpm-webapis-1.0-SNAPSHOT.war">
-            <content sha1="9b2dbb3dc78b10142b8b844ad52ef5fddd557dc8"/>
-        </deployment>
-    </deployments>
 </server>
